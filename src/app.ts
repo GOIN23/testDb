@@ -25,5 +25,3 @@ app.use(express.json());
 app.use("/api/videos", routerVideo(db));
 app.use("/api/testing/all-data", routerDelet(db));
 
-
-
