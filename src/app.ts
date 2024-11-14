@@ -1,8 +1,7 @@
 import express from "express";
-import { routerVideo } from "./router/routerVideos";
-import { dbT, videoQuality, videoT } from "./type/typeVideos";
-import { SETTINGS } from "./seting";
 import { routerDelet } from "./router/routerDelet";
+import { routerVideo } from "./router/routerVideos";
+import { dbT, videoQuality } from "./type/typeVideos";
 
 export const db: dbT = {
   video: [
@@ -10,7 +9,7 @@ export const db: dbT = {
       id: 1,
       title: "ali",
       author: "dsa",
-      canBeDownloaded: false ,
+      canBeDownloaded: false,
       minAgeRestriction: null,
       createdAt: new Date().toISOString(),
       publicationDate: new Date(new Date().setDate(new Date().getDate() + 1)).toISOString(),
@@ -25,3 +24,4 @@ app.use(express.json());
 app.use("/api/videos", routerVideo(db));
 app.use("/api/testing/all-data", routerDelet(db));
 
+console.log('new branch dev')
