@@ -47,6 +47,3 @@ function b() {
 }
 
 console.log("after coomit")
-
-
-console.log('sfdfsd')
