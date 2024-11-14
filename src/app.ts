@@ -39,4 +39,11 @@ console.log('develepment/auth 2')
 
 console.log('edda addd')
 
+
+
+const a = 22
+function b() {
+
+}
+
 console.log("after coomit")
