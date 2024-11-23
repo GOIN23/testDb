@@ -58,3 +58,5 @@ console.log('add 3')
 
 
 console.log('amend commit')
+
+console.log(' revercommit')
