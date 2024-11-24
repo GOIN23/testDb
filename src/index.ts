@@ -14,3 +14,6 @@ console.log(2222)
 console.log('amend commit')
 console.log(' revercommit')
 console.log('sdfsd')
+
+
+console.log('stash')
